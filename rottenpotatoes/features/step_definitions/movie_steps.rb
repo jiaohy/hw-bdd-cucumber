@@ -27,7 +27,7 @@ When /I (un)?check the following ratings: (.*)/ do |uncheck, rating_list|
   end
 end
 
-Then /I should see all the movies/ do
+Then /I should see all of the movies/ do
   movies = Movie.all
   
 end
